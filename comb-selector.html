@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* div > h1 {
+            color: red;
+        } */
+
+        /* h1 + h2 {
+            color: red;
+        } */
+
+        h1 ~ h2 {
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div>
+        <h1> This is inside div </h1>
+        <section>
+            <h1> This is also into section</h1>
+        </section>
+    </div>
+
+    <h1>This is first h1 tag</h1>
+    <h1>This is first h1 tag</h1>
+    <h1>This is first h1 tag</h1>
+    <h2 >This is first h2 tag</h2>
+    <h2 >This is first h2 tag</h2>
+    <h2 >This is first h2 tag</h2>
+    <h2 >This is first h2 tag</h2>
+    <h1>This is second h1 tag</h1>
+    <h2 >This is second h2 tag</h2>
+    <h1 >This is third h1 tag</h1>
+</body>
+</html>
+
+<!-- 
+    > - Child selector 
+
+    h1 + h2 {
+            color: red;
+        }
+        Adjacent sibling selector
+
+    h1 ~ h2 {
+                color: red;
+            }
+
+            All the siblings
+
+ -->
